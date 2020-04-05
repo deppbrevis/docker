@@ -1,2 +1,4 @@
 FROM alpine
-CMD "echo" "Hello World!"
+MAINTAINER depp 425278414@qq.com
+RUN echo HelloWorld BY RUN
+ENTRYPOINT ["echo"]
